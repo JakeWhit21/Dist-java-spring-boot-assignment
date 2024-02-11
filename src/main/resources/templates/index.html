@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Home Page')}">
+</head>
+
+<body>
+<div th:insert="~{fragments/_header :: header}"></div>
+
+<h2>
+    Tutorial
+</h2>
+
+<h3>
+    Welcome to my tutorial on how to do an oil change on a car!
+</h3>
+
+<p>
+    In this tutorial, I will tell you how to change the oil in your car in 3 steps!
+</p>
+<img th:src="@{/img/oil-change.jpg}" alt="Oil being pored in car">
+
+<div th:replace="~{fragments/_footer :: footer}"></div>
+</body>
+</html>

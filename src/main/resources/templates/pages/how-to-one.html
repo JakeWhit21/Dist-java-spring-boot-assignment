@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Step One')}">
+</head>
+
+<body>
+<div th:insert="~{fragments/_header :: header}"></div>
+
+<h2>
+    Step One
+</h2>
+
+<p>For step one, you want to get under the car and start draining the oil by taking off the oil drain plug from the oil pan.</p>
+
+<img th:src="@{/img/draining_oil.jpg}" alt="Oil being drained from car">
+
+<div th:replace="~{fragments/_footer :: footer}"></div>
+</body>
+</html>

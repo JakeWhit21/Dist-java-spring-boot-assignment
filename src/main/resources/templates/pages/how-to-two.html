@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Step Two')}">
+</head>
+
+<body>
+<div th:insert="~{fragments/_header :: header}"></div>
+
+<h2>
+    Step Two
+</h2>
+
+<p>For step two, you want to replace the oil filter while the engine oil is draining.</p>
+
+<img th:src="@{/img/9133676-experienced-car-mechanic-changing-oil-filter-on-an-engine.jpg}" alt="Oil filter being changed">
+
+<div th:replace="~{fragments/_footer :: footer}"></div>
+</body>
+</html>

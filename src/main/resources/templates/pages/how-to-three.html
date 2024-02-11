@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Step Three')}">
+</head>
+
+<body>
+<div th:insert="~{fragments/_header :: header}"></div>
+
+<h2>
+    Step Three
+</h2>
+
+<p>For Step Three, put everything back on the car and start filling the car up with the correct oil. Usually the engine oil cap on the vehicle will tell you what the correct oil to put in the vehicle is.</p>
+<h4>Do not start your car without oil!</h4>
+
+<img th:src="@{/img/need-an-oil-change.jpg}" alt="Oil being drained from car">
+
+<div th:replace="~{fragments/_footer :: footer}"></div>
+</body>
+</html>
